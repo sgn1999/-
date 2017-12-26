@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="rl">
+        <div class="rl-con">
+            <header>请选择入离日期<button id='done'>完成</button></header>
+            <ul>
+                <li>日</li>
+                <li>一</li>
+                <li>二</li>
+                <li>三</li>
+                <li>四</li>
+                <li>五</li>
+                <li>六</li>
+            </ul>
+            <div class="rl-box">
+                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <header class="header">
+            <ul class="show">
+                <li>住<span>09-13</span></li>
+                <li>离<span>09-13</span></li>
+            </ul>
+        </header>
+        <main class="main"></main>
+    </div>
+    <script src="js/sea.js"></script>
+    <script>
+        seajs.config({
+            alias:{
+                "jquery":"jq/jquery.min"
+            }
+        })
+        seajs.use('main');
+    </script>
+</body>
+</html>
